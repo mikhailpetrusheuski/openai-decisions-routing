@@ -2,6 +2,12 @@
 
 A small .NET 10 console app that uses `DecisionsClient` from the [OpenAI .NET library](https://www.nuget.org/packages/OpenAI/2.15.0) to route an incident. The model returns a probability, and the application's own policy decides where the incident goes.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![.NET 10](https://img.shields.io/badge/.NET-10-512BD4)](https://dotnet.microsoft.com/)
+[![Stars](https://img.shields.io/github/stars/mikhailpetrusheuski/openai-decisions-routing?style=social)](https://github.com/mikhailpetrusheuski/openai-decisions-routing/stargazers)
+
+Read the write-up: [OpenAI Decisions Is Now a Typed .NET Routing Primitive](https://medium.com/@mikhail.petrusheuski/openai-decisions-is-now-a-typed-net-routing-primitive-ebe3bdce660f).
+
 | Result | Route |
 | --- | --- |
 | Probability at or above 0.85 | `urgent-response` |
