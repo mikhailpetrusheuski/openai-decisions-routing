@@ -11,6 +11,8 @@ A small .NET 10 console app that uses `DecisionsClient` from the [OpenAI .NET li
 
 The thresholds are illustrative. Choose yours from labeled examples and the cost of false positives and false negatives in your own domain. The sample keeps them in the switch so it's easy to read, and `incident-routing.example.json` shows how they could look in versioned configuration.
 
+`ThresholdEvaluation.cs` counts missed urgent incidents, false alarms and review volume for a pair of thresholds, using probabilities you stored alongside the real outcomes.
+
 ## Requirements
 
 - .NET 10 SDK
