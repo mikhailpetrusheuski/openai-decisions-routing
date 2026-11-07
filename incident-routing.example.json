@@ -1,0 +1,7 @@
+{
+  "IncidentRouting": {
+    "UrgentThreshold": 0.85,
+    "ReviewThreshold": 0.35,
+    "FallbackRoute": "human-review"
+  }
+}
